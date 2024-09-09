@@ -44,3 +44,15 @@ This repository contains a to-do application built using a microservices archite
    git clone https://github.com/yourusername/todo-microservices-app.git
    cd todo-microservices-app
    ```
+2. **Build and start services using Docker Compose**:
+   ```bash
+   docker-compose up -d
+   ```
+3. **Access the services**:
+
+- User Service: http://localhost:3001
+- To-Do Service: http://localhost:3002
+
+## Deployment
+
+For deployment in a Kubernetes cluster, refer to the Kubernetes configuration files in the /infrastructure/k8s directory.
